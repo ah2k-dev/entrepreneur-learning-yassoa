@@ -93,14 +93,14 @@ app.post(
 app.use(express.json());
 
 //routes
-app.use("/auth", auth);
-app.use("/podcast", podcast);
-app.use("/businessIdea", businessIdea);
-app.use("/course", course);
-app.use("/uploader", uploader);
-app.use("/subscription", subscription);
+app.use("/api/auth", auth);
+app.use("/api/podcast", podcast);
+app.use("/api/businessIdea", businessIdea);
+app.use("/api/course", course);
+app.use("/api/uploader", uploader);
+app.use("/api/subscription", subscription);
 
-app.get("/", async (req, res) => {
+app.get("/api", async (req, res) => {
   // const options = {
   //   method: "GET",
   //   headers: {
