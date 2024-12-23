@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "learning-app-drive",
+  "private_key_id": "d9ee75c0ea4413425157af467dbea226afce5f4d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNS6kzoZ7VPqKR\nhXtd6fvdf5lWBEtPCpTeKr/YrqgE57GfcwLrcqn3PQqiVt7RPsnixB0DP6M/vmzr\nIs9CImy4X05Xk+qDyHOK9NynjKD2jlmg5rWVZ2k4N+bfblRpq9tevecJzbe2wczF\nrqF0XNX3m27ht2+omEuWhI5fITKJfFy6h1AhZRxSjikmGRA7bODTqxlLvwexhuBH\n+IGYyGgpZHcPLTjr62+LK5xxeN6OAd74HCSEmJ4zdOUpFwRg64z9+gqNUioQk3Wk\nECc6U0RF1S7M9viwMNECO8SGO+wupjzHDUPF0kEGrpxxol/Tihs5tQF4E84WYlES\nEbfkr7MJAgMBAAECggEAVFL6mfmNyxtiHRHN3YJpcM6jhgBXiozXHvZCPNdorjMY\n81yDW4CKrcIF5y51cU8wD5PsMtRl0p3+EQsIRKrtK0ICZNid4ClqxC3VoICT8RIB\nYKTC+y4xuuTDUQz5YTo07hJkntM/3bJ20M/tA2XKgVz3y4DUPVTo31dtP0fcgTm1\nXX9x8E5b7maUzmHh5ejhKVH5BP9YCsKsjtjqSv2IO+JjhhfSBjcEhTI+wNUSgx6g\nMtQJxEClld862Fh6yvQCHi+qeYVSU5iRgDLG+hNbHFV8FKxW6jJBonJXv2vzUdXa\nWn8YDbqGVwGxwjjbnRz/T+cc2OZ9ZWALOYRy6nlTjQKBgQD+4aZo9KycRwbY1V/K\n9+1NKtGPppxi5QjqyPTE6JOo+uAJQrgRF4YuJiFdsnYYZVV3zY7ZLd+FjQ6QOTkf\nIT6WRdt4NVQb6kGnL89x5/24sr4VgeMaYJhfqL86A9rlJ4xice8LI8RdF8qlM+xy\nVSiSbXa0dovwllGGnGd4V4dEDwKBgQDOMk2PbZ07k0KVOafHa27ZFxuIr1EtBOrp\ngjIp4hZ0jXzkoZVOzSYEMhtMCldfMTFvfh+oP7IDS4r3j+073J8KWJV6goXqsAj3\n5qVjnO1yZR9oF3tXW9e+Nlji3ArSWCTHL34ANjloU5UI8KK6gsJhWetiqP+ytNxp\n3HFdYCKfZwKBgHUs5eUgfu5FlPdAeQ6FllnAkqD41rJ8WvIdOrH/vkqUM0TuoFJz\nPyOeMf6yWapzg6xVGxPrC/SI2aYiOImALhbFvNTxp15B/rbOuw7BuZocylh24yIw\nQDzSBj+0oABzgw2LFXtIkTC/DFGQomYZklJm8oiaa1FKueYpp0Pi8XOvAoGAP/kR\nYTeD+dDVbpDlwhRN3uKxczXZfJsy+uGfCKmRh/XB0vli5oD1k4WsPGpU8z7C9LFv\nxvaEF0ufwPERjGoFmeMj9U97lvWowqj3lTFB5iUDmnr2lIL1K5mW+EOGw/3+4yGT\n+SLZqsmLyqtGAZHCFwwb4I9ITbyZSerP7UV/WG8CgYBATi+1O+fA1+bjDnomO1j/\niqN7RJLKXgfEFb7YnBRaeGGgXtwQUsve6AQ8t10PfYTMJJDypclCBq2lAFjiIznQ\nS9JtwkbgnRc2c82KLHbuiguLG5FQoq7a0h2kYcO9hH2dJPNACtSVFOIFDJPbPn/R\n0B/MYgz6jWpP2gooe96u8w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "learning-app-drive@learning-app-drive.iam.gserviceaccount.com",
+  "client_id": "106597756485133982353",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/learning-app-drive%40learning-app-drive.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
