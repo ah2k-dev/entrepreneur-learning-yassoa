@@ -23,7 +23,7 @@ app.use(cors());
 app.options("*", cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
+app.use("/api/uploads", express.static(path.join(__dirname, "../uploads")));
 // app.use("/docs/:filename", (req, res, next) => {
 //   try {
 //     const { token } = req.query;
@@ -36,7 +36,7 @@ app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 //     return ErrorHandler(error.message, 500, req, res);
 //   }
 // });
-app.use("/docs", express.static(path.join(__dirname, "../docs")));
+app.use("/api/docs", express.static(path.join(__dirname, "../docs")));
 app.use(loggerMiddleware);
 
 // stripe webhook

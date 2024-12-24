@@ -3,6 +3,8 @@ services:
     build: ./frontend
     volumes:
       - frontend_dist:/app/dist
+    command: >
+      /bin/bash -c "rm -rf /app/dist/* && npm run build"
     depends_on:
       - backend
     
@@ -10,6 +12,8 @@ services:
     build: ./backend
     ports:
       - "8080:8080"
+    volumes:
+      - backend_uploads:/usr/src/app/uploads
     
   nginx:
     image: nginx:alpine
@@ -24,3 +28,4 @@ services:
 
 volumes:
   frontend_dist:
+  backend_uploads:

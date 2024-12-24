@@ -69,30 +69,36 @@ const isAdminOrEditor = async (req, res, next) => {
 const checkStripeSubscription = async (req, res, next) => {
   try {
     if (!req.user.role === "user") {
-      next();
+      return next();
     }
     if (!req.user.stripeSubscriptionID) {
       req.user.subscribed = false;
-      next();
+      return next();
     } else {
       const subscription = await getStripeSubscription(
         req.user.stripeSubscriptionID
       );
       if (!subscription || subscription.status !== "active") {
         req.user.subscribed = false;
-        next();
+        return next();
       }
       req.user.subscribed = true;
       const permissions = [];
-      if(subscription.items.data[0].price.product === process.env.STRIPE_PREMIUM_PRODUCT){
+      if (
+        subscription.items.data[0].price.product ===
+        process.env.STRIPE_PREMIUM_PRODUCT
+      ) {
         permissions.push("premium");
-      } else if(subscription.items.data[0].price.product === process.env.STRIPE_STARTER_PRODUCT){
+      } else if (
+        subscription.items.data[0].price.product ===
+        process.env.STRIPE_STARTER_PRODUCT
+      ) {
         permissions.push("starter");
       }
-      next();
+      return next();
     }
   } catch (error) {
-    res.status(500).json({ success: false, message: error.message });
+    return res.status(500).json({ success: false, message: error.message });
   }
 };
 
